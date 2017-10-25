@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15sp" >
+    <TextView
+        style="@style/DefaultText.Title"
+        android:text="@string/page_title_about" />
+
+    <TableLayout
+        style="@style/Container">
+
+        <TableRow>
+            <TextView
+                style="@style/InlineText"
+                android:text="@string/const_name"  />
+            <TextView
+                style="@style/InlineText"
+                android:text="Буненкова Татьяна"  />
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/InlineText"
+                android:text="@string/const_group"  />
+            <TextView
+                style="@style/InlineText"
+                android:text="@string/developer_group"  />
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/InlineText"
+                android:autoLink="phone"
+                android:text="@string/const_phone" />
+            <TextView
+                android:id="@+id/text_phone"
+                style="@style/InlineText"
+                android:autoLink="phone"
+                android:text="+7 (905)1767745" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                style="@style/InlineText"
+                android:text="@string/const_email" />
+
+            <TextView
+                android:id="@+id/text_email"
+                style="@style/InlineText"
+                android:text="tbunenkova@yandex.ru" />
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/phone_input"
+        style="@style/DefaultInput"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_call"
+        style="@style/DefaultButton"
+        android:text="@string/button_call_student"
+        android:onClick="onClickCallBtn"/>
+</LinearLayout>

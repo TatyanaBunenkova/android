@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    // Constants
+    <string name="const_student">Студент:</string>
+    <string name="const_phone">Телефон:</string>
+    <string name="const_email">Email:</string>
+    <string name="const_name">Студент:</string>
+    <string name="const_group">Группа:</string>
+    // Menu items names
+    <string name="menu_item_settings">Настройки</string>
+
+    // Page titles
+    <string name="page_title_about">О программе</string>
+
+
+    // Texts
+    <string name="developer_group">14-ИВТ1</string>
+    <string name="developer_name">Буненкова Татьяна</string>
+    <string name="developer_phone">+7 (905) 176 77 45</string>
+    <string name="developer_email">tbunenkova@yandex.ru</string>
+
+    // Buttons
+    <string name="button_call_student">Набрать студента</string>
+</resources>
+
