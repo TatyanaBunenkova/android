@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableRow>
+
+        <LinearLayout
+            style="@style/FilterItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:src="@drawable/ic_filter_ingredients"/>
+
+            <TextView
+                style="@style/FilterText"
+                android:text="Ингридиенты"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FilterItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_filter_destiny"/>
+
+            <TextView
+                style="@style/FilterText"
+                android:text="Назначение"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            style="@style/FilterItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_filter_kitchen"/>
+
+            <TextView
+                style="@style/FilterText"
+                android:text="Кухня"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FilterItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_filter_dish_type"/>
+
+            <TextView
+                style="@style/FilterText"
+                android:text="Тип блюда"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+
+
+</TableLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Recipes</string>
+    <string name="app_name">Кулинарные рецепты</string>
     // Constants
     <string name="const_student">Студент:</string>
     <string name="const_phone">Телефон:</string>
@@ -21,5 +21,8 @@
 
     // Buttons
     <string name="button_call_student">Набрать студента</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
 
